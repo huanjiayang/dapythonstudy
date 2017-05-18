@@ -16,9 +16,15 @@ Created on 18 May 2017
 # Consider use dict()
 #===============================================================================
 
+# Console input to define n
 n = int(raw_input("Please enter a number: "))
+
+# Initialise dictionary
 dictionary = dict()
+
+# For each number up to n, calculate the square and place in dictionary with number as key
 for i in range(1,n+1):
         dictionary[i] = i*i
         
+# Print dictionary
 print dictionary

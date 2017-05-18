@@ -17,10 +17,14 @@ Created on 18 May 2017
 # In case of input data being supplied to the question, it should be assumed to be a console input.
 #===============================================================================
 
+# Define factorial function
 def factorial(x):
     if x == 0:
         return 1
     return x * factorial(x - 1)
 
+# Define input number
 x=int(raw_input("Please enter a number: "))
+
+# Print factorial of inputted number
 print ("Factorial of " + str(x) +" = "+ str(factorial(x)))
